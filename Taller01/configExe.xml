@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>C:\Users\grissel\Desktop\taller\Taller01\dist\Taller01.jar</jar>
+  <outfile>C:\Users\grissel\Desktop\taller\Taller01\dist\Taller01App.exe</outfile>
+  <errTitle>No fue posible iniciar la aplicación</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl>https://pyser.tk/ayuda</supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\grissel\Pictures\logo_target2.ico</icon>
+  <singleInstance>
+    <mutexName>tallerjavaapp</mutexName>
+    <windowTitle>Demo de Taller de Java</windowTitle>
+  </singleInstance>
+  <jre>
+    <path></path>
+    <bundledJre64Bit>false</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion>8</minVersion>
+    <maxVersion>15</maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+    <opt>-Denv.java.home=&quot;%java_home%&quot;</opt>
+    <opt>-Dlaunch4j.exedir=&quot;%EXEDIR%&quot;</opt>
+  </jre>
+  <versionInfo>
+    <fileVersion>0.1.0.0</fileVersion>
+    <txtFileVersion>0.1.0.Beta</txtFileVersion>
+    <fileDescription>Aplicación de demostración del taller de Java 8 SE</fileDescription>
+    <copyright>@Pysertec 2003-2021</copyright>
+    <productVersion>0.1.0.0</productVersion>
+    <txtProductVersion>0.1.0.Beta</txtProductVersion>
+    <productName>Demostración Taller Java 8</productName>
+    <companyName>Pysertec SA</companyName>
+    <internalName>tallerapp</internalName>
+    <originalFilename>taller01.exe</originalFilename>
+    <trademarks></trademarks>
+    <language>SPANISH_MEXICO</language>
+  </versionInfo>
+</launch4jConfig>
